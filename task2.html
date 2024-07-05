@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form For a Story telling Contest </title>
+    <link rel="stylsheet" href="#">
+</head>
+
+<body>
+    <h1>Storytelling Contest And Feedback Form</h1>
+
+    <form action="/action_page.php" method="post" autocomplete="on" target="_blank">
+
+        <label for="story">Share Your Story:</label><br>
+        <textarea id="story" name="story" rows="10" cols="40"></textarea><br><br>
+
+        <label for="rating">Rate Story:</label><br>
+        <select id="rating" name="rating">
+            <option value="excellent">Excellent</option>
+            <option value="best">Best</option>
+            <option value="better">Better</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
